@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: shreemachine
+  name: shreemachine
 
 variables:
   buildConfiguration: 'Release'
